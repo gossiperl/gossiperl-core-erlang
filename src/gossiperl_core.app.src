@@ -20,13 +20,14 @@
 
 {application, gossiperl_core,
   [{description, "Gossiperl core for erlang"},
-  {vsn, "1.1.0"},
+  {vsn, "1.1.1"},
   {modules, []},
   {registered, []},
   {applications, [
     kernel,
     stdlib,
     thrift,
-    crypto
+    crypto,
+    lager
   ]}
 ]}.
